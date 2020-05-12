@@ -1,0 +1,28 @@
+.markdown {
+	textarea.editorBox{
+		font-size: 13px;
+		font-family: monospace;
+		width: 97.4%;
+		padding: 8px;
+		resize: none;
+		height: 472px;
+		line-height: 160%;
+		overflow-y: auto;
+		-moz-box-shadow: inner 0 0 3px #161616;
+		-webkit-box-shadow: inner 0 0 3px #161616;
+		box-shadow: inner 0 0 3px #161616;
+	}
+	.editor-header,.preview-header{
+		padding: 5px;
+		border: 1px solid #a8a8a8;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.previewBox{
+		border: 1px solid #cccccc;
+		overflow-y: auto;
+		height: 465px;
+		padding: 10px;
+		background-color: #fbfbfb;
+	}
+}
